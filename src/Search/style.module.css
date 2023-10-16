@@ -1,0 +1,51 @@
+form{
+    display: block;
+    
+  }
+  .search{
+    font-size: 1.5rem;
+  margin: 1.5em auto 3em;
+  max-width: 80%;
+  }
+  .search [type='search'] {
+    background-color: #ffffff;
+    color: #898F9C;
+    padding: 0.5em 2em;
+    text-align: center;
+    width: 100%;
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }  
+
+  
+
+
+.movies {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .moviesx > li {
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+  }
+  figure{
+    margin: 0;
+  }
+
+.title{
+    font-size: irem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
